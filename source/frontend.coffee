@@ -36,9 +36,9 @@ testBrowser = (error) ->
     ans[2] = tem[1] if tem?
     ans = [ans[1], parseInt ans[2]] if ans?
     ans = [nav, navigator.appVersion] if not ans?
-    if ans[0] == 'Safari' and ans[1] > 5   or
+    if ans[0] == 'Safari' and ans[1] > 5  or
        ans[0] == 'Chrome' and ans[1] > 24  or
-       ans[0] == 'Firefox' and ans[1] > 20
+       ans[0] == 'Firefox' and ans[1] > 16
         return true
     window.location.replace error
 
