@@ -23,7 +23,7 @@
 BUILD  = build
 SOURCE = source
 
-all: clean script dark style
+all: script dark style
 
 script:
 	iced -I window -cp -j -- \
@@ -37,6 +37,3 @@ dark:
 
 style:
 	lessc -O2 --yui-compress $(SOURCE)/style.less > $(BUILD)/style.css
-
-clean:
-	rm -f $(BUILD)/*
