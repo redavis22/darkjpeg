@@ -175,6 +175,7 @@ controlAction = (ctr) ->
         controlAdd 'ctr-from-3 ctr-to-4', null, null
         controlAdd 'ctr-color-4 ctr-stop', global.optJpeg, controlJpeg
         controlAdd 'ctr-float', null, null
+    return if global.optData != 'file'
     action = 'encode' if global.optAction == 'decode'
     action = 'decode' if global.optAction == 'encode'
     if action == 'encode'
