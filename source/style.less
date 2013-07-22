@@ -22,12 +22,6 @@
 
 @import (less) "reset.css";
 
-*
-{
-    -moz-user-select: none;
-    -webkit-user-select: none;
-}
-
 body
 {
     color: white;
@@ -35,6 +29,7 @@ body
     background: url('../images/background.jpg') no-repeat center center fixed;
     background-color: black;
     background-size: cover;
+    -webkit-user-select: none;
 }
 
 section
@@ -97,8 +92,6 @@ section > form > input
     padding-right: 40px;
     border: 1px solid #444;
     background-color: #fff;
-    -moz-user-select: auto;
-    -webkit-user-select: auto;
 }
 
 section > form > input:disabled
