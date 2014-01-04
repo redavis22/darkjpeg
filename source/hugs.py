@@ -24,7 +24,7 @@ import webapp2
 import urllib2
 import base64
 
-cors = 'http://darkjpeg.github.io'
+cors = 'http://yndi.github.io'
 hugs = '<p style="font: 120px Verdana;">\(^_^)/</p>'
 size = 64 * 1024
 

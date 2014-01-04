@@ -14,12 +14,12 @@ Main features:
 
 #### Additional info
 
-- [Components](https://github.com/darkjpeg/darkjpeg.github.io/blob/master/NOTES.md#components)
-- [RarJPEG](https://github.com/darkjpeg/darkjpeg.github.io/blob/master/NOTES.md#rarjpeg-support)
-- [Denial](https://github.com/darkjpeg/darkjpeg.github.io/blob/master/NOTES.md#deniable-encryption)
-- [Server-less](https://github.com/darkjpeg/darkjpeg.github.io/blob/master/NOTES.md#server-less)
-- [App Engine](https://github.com/darkjpeg/darkjpeg.github.io/blob/master/NOTES.md#app-engine-support)
-- [Development](https://github.com/darkjpeg/darkjpeg.github.io/blob/master/NOTES.md#developers-guide)
-- [See also](https://github.com/darkjpeg/darkjpeg.github.io/blob/master/NOTES.md#see-also)
-- [Thanks](https://github.com/darkjpeg/darkjpeg.github.io/blob/master/NOTES.md#thanks-to)
-- [License](https://github.com/darkjpeg/darkjpeg.github.io/blob/master/NOTES.md#license)
+- [Components](https://github.com/yndi/darkjpeg/blob/master/NOTES.md#components)
+- [RarJPEG](https://github.com/yndi/darkjpeg/blob/master/NOTES.md#rarjpeg-support)
+- [Denial](https://github.com/yndi/darkjpeg/blob/master/NOTES.md#deniable-encryption)
+- [Server-less](https://github.com/yndi/darkjpeg/blob/master/NOTES.md#server-less)
+- [App Engine](https://github.com/yndi/darkjpeg/blob/master/NOTES.md#app-engine-support)
+- [Development](https://github.com/yndi/darkjpeg/blob/master/NOTES.md#developers-guide)
+- [See also](https://github.com/yndi/darkjpeg/blob/master/NOTES.md#see-also)
+- [Thanks](https://github.com/yndi/darkjpeg/blob/master/NOTES.md#thanks-to)
+- [License](https://github.com/yndi/darkjpeg/blob/master/NOTES.md#license)
