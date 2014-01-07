@@ -670,8 +670,6 @@ var JPEGDecoder = function (method, buf)
                 throw new Exception('decode', "Wrong JPEG tables count");
             for (var i = 0; i < 64; i++)
                 sum += quantizationTables[0][i] + quantizationTables[1][i];
-            if (sum != 128)
-                throw new Exception('decode', "File not encrypted");
             if (frames.length != 1)
                 throw new Exception('decode', "Wrong JPEG frames count");
             if (frame.componentsOrder.length != 3)

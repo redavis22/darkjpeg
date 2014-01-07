@@ -213,7 +213,7 @@ var AES256 = function (data, pass, dir)
         z = process([a, b, c, d], dir);
 
         if (z[0] != 0x3141593)
-            throw new Exception('decrypt', "Wrong password");
+            throw new Exception('decrypt', "Nothing decrypted");
     }
 
     for (i = 4 - k; i < result.length; i += 16)

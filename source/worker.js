@@ -117,7 +117,7 @@ var Crypto = function (name, buf, pass, dir)
 
         if (idata[0] != 0x03 || idata[1] != 0x14 ||
             idata[2] != 0x15 || idata[3] != 0x93)
-            throw new Exception('decrypt', "Wrong password");
+            throw new Exception('decrypt', "Nothing decrypted");
 
         if (dsize == 0 || nsize == 0)
             throw new Exception('decrypt', "Empty data");
